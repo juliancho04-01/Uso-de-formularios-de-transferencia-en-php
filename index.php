@@ -1,6 +1,6 @@
 <?php
 /*
-Nombre: Julian Andres Florez
+Nombre: 
 Programa: DESARROLLO WEB CON PHP
 Evidencia: Taller "Uso de formularios para transferencia"
 */
