@@ -2,7 +2,12 @@
 function Accion($fila,$puesto,$accion,$lista){
         /*Se evalua la opción del usuario dependiendo de lo contenido en el Array
         Si el puesto elegido por el usuario esta libre se modifica el Array con la acción elegida */
-        if($lista[$fila-1][$puesto-1]=="L"){
+        if($_POST["fila"] == "" || $_POST["puesto"] == ""){
+            echo "<center>";
+            echo "<font size=5>Los campos no se pueden quedar vacios</font>";
+            echo "<center>";
+        }
+        elseif($lista[$fila-1][$puesto-1]=="L"){
             $lista[$fila-1][$puesto-1]=$accion;
         }
         //Si el puesto elegido por el usuario esta vendido sale un alert mostrando que ya esta vendido o reservado
@@ -20,4 +25,3 @@ function Accion($fila,$puesto,$accion,$lista){
         return $lista;
 }
 ?>
-
