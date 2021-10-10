@@ -3,8 +3,9 @@ function Accion($fila,$puesto,$accion,$lista){
         /*Se evalua la opción del usuario dependiendo de lo contenido en el Array
         Si el puesto elegido por el usuario esta libre se modifica el Array con la acción elegida */
         if($_POST["fila"] == "" || $_POST["puesto"] == ""){
-             echo '<script>alert("TIENE QUE LLENAR LOS CAMPOS")</script> ';
-             echo "<script>location.href='index.php'</script>";
+            echo "<center>";
+            echo "<font size=5>Los campos no pueden quedar vacios</font>";
+            echo "<center>";
         }
         elseif($lista[$fila-1][$puesto-1]=="L"){
             $lista[$fila-1][$puesto-1]=$accion;
