@@ -51,7 +51,7 @@ else if(isset($_REQUEST["Reset"]) || !isset($_REQUEST["Enviar"])){
     
 <body>
 <center>
-    <table>
+    <table border='2' solid #000 width='10%'>
             <form method="POST">
                 <!-- Se separa el array $lista en un String y se oculta-->
                 
