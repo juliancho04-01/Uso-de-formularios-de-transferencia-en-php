@@ -13,8 +13,6 @@ Evidencia: Taller "Uso de formularios para transferencia"
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-
-<div class="table1">
 <?php
 
 //Se requieren las funciones para imprimir el escenario y para enviar las acciones del usuario
@@ -49,7 +47,6 @@ else if(isset($_REQUEST["Reset"]) || !isset($_REQUEST["Enviar"])){
    
 }
 ?>
-</div>
     
 <body>
 <center>
