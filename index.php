@@ -4,6 +4,7 @@ Nombre:
 Programa: DESARROLLO WEB CON PHP
 Evidencia: Taller "Uso de formularios para transferencia"
 */
+echo '<body style="background-color:#C8EDE1">';
 ?>
 <!DOCTYPE html>
 <html>
