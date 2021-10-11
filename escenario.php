@@ -12,7 +12,7 @@
 <?php
 function Escenario($lista){
     //Se crea la tabla y sus encabezados
-echo "<table class='tg' border='1' width='25%' solid #000 style='margin:auto'>";
+echo "<table class='tg' border='2' width='25%' solid #000 style='margin:auto'>";
     echo "<tr>";
     echo "<tr>";
         echo "<th></th>
